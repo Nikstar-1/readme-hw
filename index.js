@@ -1,6 +1,6 @@
 const inquirer = require("inquirer");
 const fs = require ("fs");
-const generatorMarkdown = require ("./generateReadMeMarkdown");
+const path = require("path");
 
 inquirer
   .prompt([
@@ -57,14 +57,21 @@ inquirer
     },
   ]) 
   .then((answer) => {
-    console.log("Completed",);
-   
+    let readmeContent = generateReadMeMarkdown(answer);
+   fs.writeFileSync(path.join(process.cwd(), 'ReadMe.md'), generateReadMeMarkdown(answer)); 
   });
-  
+
   function generateReadMeMarkdown(answers){
-    `##Project Title 
+    return `
+    ## Project Title 
+
     ${answers.title}
+
+    ### Description
+
+    ${answers.description}
+
+    ![Github Licence](https://img.shields.io/badge/license-${answers.licence}-red.svg)
     ` 
-    module.exports = generateReadMeMarkdown;
   }
   
