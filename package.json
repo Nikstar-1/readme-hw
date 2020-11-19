@@ -1,0 +1,26 @@
+{
+  "name": "readme-hw",
+  "version": "1.0.0",
+  "description": "ReadMe Generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nikstar-1/readme-hw.git"
+  },
+  "author": "Rekha Kumari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nikstar-1/readme-hw/issues"
+  },
+  "homepage": "https://github.com/Nikstar-1/readme-hw#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3",
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
