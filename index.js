@@ -63,6 +63,15 @@ inquirer
 
   function generateReadMeMarkdown(answers){
     return `
+    # Table of Contents
+   
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Constribution](#contribution)
+  - [Test](#test)
+
     ## Project Title 
 
     ${answers.title}
@@ -70,6 +79,35 @@ inquirer
     ### Description
 
     ${answers.description}
+    ![Github Licence](https://img.shields.io/badge/license-${answers.licence}-red.svg)
+
+    ## Installation:
+
+    ${answers.installation}
+
+    ## Usage:
+    ${answers.usage}
+
+    ## License:
+    ![Github Licence](https://img.shields.io/badge/license-${answers.licence}-red.svg)
+
+    ## Contribution:
+
+    ${answers.contribution}
+
+    ## Test
+
+    ${answers.test}
+
+    ## Questions:
+   For Questions about the ReadMe Generator you can visit my GitHub page at the following link:
+   - [GitHub profile](https://github.com/Nikstar-1${answers.github})
+   For additional questions please reach out to my email at: ${answers.email}.
+
+
+
+
+
 
     ![Github Licence](https://img.shields.io/badge/license-${answers.licence}-red.svg)
     ` 
