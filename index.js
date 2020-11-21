@@ -63,7 +63,7 @@ inquirer
 
   function generateReadMeMarkdown(answers){
     return `
-    # Table of Contents
+   # Table of Contents
    
   - [Description](#description)
   - [Installation](#installation)
@@ -72,46 +72,35 @@ inquirer
   - [Constribution](#contribution)
   - [Test](#test)
 
-    ## Project Title 
+   ## Project Title 
+   ${answers.title}
 
-    ${answers.title}
-
-    ### Description
-
+   ## Description
    ${answers.description}
    [![License: MIT](https://img.shields.io/badge/License-MIT${answers.license}-yellow.svg)](https://opensource.org/licenses/MIT)
     
 
    ## Installation:
+   ${answers.installation}
 
-    ${answers.installation}
+   ## Usage:
+   ${answers.usage}
 
-    ## Usage:
-    ${answers.usage}
+   ## License:
+   [![License: MIT](https://img.shields.io/badge/License-MIT${answers.license}-yellow.svg)](https://opensource.org/licenses/MIT)
+   - For more information about the license, click on the following link.
+   [License](https://opensource.org/licenses/${answers.license})
 
-    ## License:
+   ## Contribution:
+   ${answers.contribution}
 
-    ([![License: MIT](https://img.shields.io/badge/License-MIT${answers.license}-yellow.svg)](https://opensource.org/licenses/MIT)
-    ## License:
-    License Information, click on the link below.
-    - [License](https://opensource.org/licenses/${answers.license})
+   ## Test
+   ${answers.test}
 
-
-
-
-    ## Contribution:
-
-    ${answers.contribution}
-
-    ## Test
-
-    ${answers.test}
-
-    ## Questions:
+   ## Questions:
    For Questions about the ReadMe Generator you can visit my GitHub page at the following link:
-   - [GitHub profile](https://github.com/Nikstar-1/readme-hw${answers.github})
+   - [GitHub profile](https://github.com/Nikstar-1/readme-hw.git${answers.github})
    For additional questions please reach out to my email at: ${answers.email}.
-
-    ` 
+   ` 
   }
   
