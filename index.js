@@ -46,7 +46,7 @@ inquirer
         message: "What are the test instructions?",
     },
     {
-        name: "username",
+        name: "github",
         type: "input",
         message: "What is your GitHub username?",
     },
@@ -88,7 +88,7 @@ inquirer
 
    ## License:
    [![License: MIT](https://img.shields.io/badge/License-MIT${answers.license}-yellow.svg)](https://opensource.org/licenses/MIT)
-   - For more information about the license, click on the following link.
+   -for more information about the license, click on the following link.
    [License](https://opensource.org/licenses/${answers.license})
 
    ## Contribution:
@@ -99,7 +99,7 @@ inquirer
 
    ## Questions:
    For Questions about the ReadMe Generator you can visit my GitHub page at the following link:
-   - [GitHub profile](https://github.com/Nikstar-1/readme-hw.git${answers.github})
+   - [GitHub profile](https://github.com/${answers.github})
    For additional questions please reach out to my email at: ${answers.email}.
    ` 
   }
