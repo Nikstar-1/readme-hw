@@ -26,14 +26,14 @@ inquirer
       },
     {
         type: "checkbox",
-        message: "Please select a licence.",
+        message: "Please select a license.",
         choices: [ 
                    "Apache",
                    "MIT",
                    "ISC",
                    "GNU GPLv3"
         ], 
-        name: "licence"
+        name: "license"
     },
     {
         name: "contribution",
@@ -78,10 +78,11 @@ inquirer
 
     ### Description
 
-    ${answers.description}
-    ![Github Licence](https://img.shields.io/badge/license-${answers.licence}-red.svg)
+   ${answers.description}
+   [![License: MIT](https://img.shields.io/badge/License-MIT${answers.license}-yellow.svg)](https://opensource.org/licenses/MIT)
+    
 
-    ## Installation:
+   ## Installation:
 
     ${answers.installation}
 
@@ -89,7 +90,14 @@ inquirer
     ${answers.usage}
 
     ## License:
-    ![Github Licence](https://img.shields.io/badge/license-${answers.licence}-red.svg)
+
+    ([![License: MIT](https://img.shields.io/badge/License-MIT${answers.license}-yellow.svg)](https://opensource.org/licenses/MIT)
+    ## License:
+    License Information, click on the link below.
+    - [License](https://opensource.org/licenses/${answers.license})
+
+
+
 
     ## Contribution:
 
@@ -101,15 +109,9 @@ inquirer
 
     ## Questions:
    For Questions about the ReadMe Generator you can visit my GitHub page at the following link:
-   - [GitHub profile](https://github.com/Nikstar-1${answers.github})
+   - [GitHub profile](https://github.com/Nikstar-1/readme-hw${answers.github})
    For additional questions please reach out to my email at: ${answers.email}.
 
-
-
-
-
-
-    ![Github Licence](https://img.shields.io/badge/license-${answers.licence}-red.svg)
     ` 
   }
   

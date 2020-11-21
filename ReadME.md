@@ -10,26 +10,34 @@
 
     ## Project Title 
 
-    ReadME Generator 
+    Read me generator
 
     ### Description
 
-    command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.
-    ![Github Licence](https://img.shields.io/badge/license--red.svg)
+   for all projects 
+   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+    
 
-    ## Installation:
+   ## Installation:
 
-    You need to make sure you have node.js, fs, and inquirer installed before you run this application
+    none
 
     ## Usage:
-    Quickly and effectively allowing the user to generate a read me file for all projects
+    projects 
 
     ## License:
-    ![Github Licence](https://img.shields.io/badge/license--red.svg)
+
+    ([![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+    ## License:
+    for more information about the license, click on the link below.
+    - [License](https://opensource.org/licenses/)
+
+
+
 
     ## Contribution:
 
-    BCU for starter materials
+    nil
 
     ## Test
 
@@ -37,13 +45,7 @@
 
     ## Questions:
    For Questions about the ReadMe Generator you can visit my GitHub page at the following link:
-   - [GitHub profile](https://github.com/Nikstar-1undefined)
+   - [GitHub profile](https://github.com/Nikstar-1/readme-hwundefined)
    For additional questions please reach out to my email at: rk_787@hotmail.co.uk.
 
-
-
-
-
-
-    ![Github Licence](https://img.shields.io/badge/license--red.svg)
     
