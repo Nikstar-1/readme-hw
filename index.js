@@ -77,9 +77,7 @@ inquirer
 
    ## Description
    ${answers.description}
-   [![License: MIT](https://img.shields.io/badge/License-MIT${answers.license}-yellow.svg)](https://opensource.org/licenses/MIT)
-    
-
+   
    ## Installation:
    ${answers.installation}
 

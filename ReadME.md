@@ -9,18 +9,18 @@
   - [Test](#test)
 
    ## Project Title 
-   Read Me Generator
+   Read me Generator
 
    ## Description
-   This application uses node.js, inquirer fs and util to create prompts for the user to answer then generates a read me file for projects 
+   This application uses node.js, inquirer and fs to create prompts for the user to answer then generates a read me for their projects
    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
     
 
    ## Installation:
-   You need to make sure you have node.js, inquirer, and fs before you run this application
+   You need to make sure you have node.js, inquirer fs installed before you run this application
 
    ## Usage:
-   Quickly and effectively allowing the user to generate a read me file for all projects 
+   Quickly and effectively allowing the user to generate a read me file for all projects
 
    ## License:
    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -28,10 +28,10 @@
    [License](https://opensource.org/licenses/)
 
    ## Contribution:
-   Bootcamp gave me the starter materials and guidlines
+   Bootcamp BCU gave me the starter materials 
 
    ## Test
-   none
+   
 
    ## Questions:
    For Questions about the ReadMe Generator you can visit my GitHub page at the following link:
